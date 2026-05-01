@@ -400,56 +400,84 @@
     <div class="row gy-4">
 
       <!-- CARD START -->
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio-card">
+     <div class="col-lg-4 col-md-6">
+  <a href="https://github.com/sahil93x/Restaurant-data-analysis" target="_blank" style="text-decoration:none; color:inherit;">
+    
+    <div class="portfolio-card">
 
-          <div class="card-visual">📊</div>
+      <div class="card-visual">🐍</div>
 
-          <h4>Sales Dashboard</h4>
-          <p>Interactive Power BI dashboard analyzing KPIs, revenue trends, and performance insights.</p>
+      <h4>Restaurant Data Analysis</h4>
 
-        </div>
+      <p>
+        Analyzed restaurant dataset using Python to uncover rating trends, customer behavior, and insights.
+      </p>
+
+      <div class="tech-tags">
+        <span>Python</span>
+        <span>Pandas</span>
+        <span>Matplotlib</span>
       </div>
+
+    </div>
+
+  </a>
+</div>
       <!-- CARD END -->
 
       <div class="col-lg-4 col-md-6">
-        <div class="portfolio-card">
+        <a href="#" style="text-decoration:none; color:inherit;">
+  <div class="portfolio-card">
+
           <div class="card-visual">🐍</div>
           <h4>Customer Data Analysis</h4>
           <p>Performed data analysis using Python to extract patterns and meaningful insights.</p>
         </div>
+        </a>
       </div>
 
       <div class="col-lg-4 col-md-6">
-        <div class="portfolio-card">
+        <a href="#" style="text-decoration:none; color:inherit;">
+  <div class="portfolio-card">
+
           <div class="card-visual">📈</div>
           <h4>Data Visualization</h4>
           <p>Designed clean and effective charts to represent complex datasets clearly.</p>
         </div>
+        </a>
       </div>
 
       <div class="col-lg-4 col-md-6">
-        <div class="portfolio-card">
+        <a href="#" style="text-decoration:none; color:inherit;">
+  <div class="portfolio-card">
+
           <div class="card-visual">🧹</div>
           <h4>Data Cleaning</h4>
           <p>Handled missing values, duplicates, and preprocessing using Python and Excel.</p>
         </div>
+        </a>
       </div>
 
       <div class="col-lg-4 col-md-6">
-        <div class="portfolio-card">
+        <a href="#" style="text-decoration:none; color:inherit;">
+  <div class="portfolio-card">
+
           <div class="card-visual">🗄️</div>
           <h4>SQL Analysis</h4>
           <p>Used SQL for data extraction, filtering, and structured data management.</p>
         </div>
+        </a>
       </div>
 
       <div class="col-lg-4 col-md-6">
-        <div class="portfolio-card">
+        <a href="#" style="text-decoration:none; color:inherit;">
+  <div class="portfolio-card">
+
           <div class="card-visual">🚀</div>
           <h4>Upcoming Projects</h4>
           <p>Currently building advanced real-world projects to strengthen data science skills.</p>
         </div>
+        </a>
       </div>
 
     </div>
@@ -495,6 +523,42 @@
   font-size: 14px;
   color: #6c757d;
 }
+.tech-tags {
+  margin-top: 10px;
+}
+
+.tech-tags span {
+  display: inline-block;
+  background: #eef2ff;
+  color: #007bff;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin: 2px;
+}
+.portfolio-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-card::after {
+  content: "View Project";
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 100%;
+  background: rgba(0,123,255,0.9);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.portfolio-card:hover::after {
+  bottom: 0;
+}
+
 </style>
 
     <!-- Faq Section -->
